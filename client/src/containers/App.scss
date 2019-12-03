@@ -1,0 +1,42 @@
+@import "../styles/colors.scss";
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.todolist-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-text-dark;
+  padding: 30px;
+  margin-bottom: 30px;
+  background: $color-bg-right;
+  background: -webkit-linear-gradient(
+    circle 997px at 5.8% 11.8%,
+    $color-bg-left,
+    $color-bg-right
+  );
+  background: radial-gradient(
+    circle 997px at 5.8% 11.8%,
+    $color-bg-left,
+    $color-bg-right
+  );
+}
+
+h2 {
+  color: $color-text-light;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
