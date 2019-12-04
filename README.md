@@ -20,6 +20,8 @@ Run:
 
 to deploy contracts on blockchain. Once it's completed, contracts under Contracts tab in Ganache should be visible as "Deployed". With this, the contracts are up and running.
 
+In order to install client side project, [`node`](https://nodejs.org/en/download/)(>=12.13.1) and [`npm`](https://www.npmjs.com/get-npm)(>=6.13.1) are required. Please download these before proceeding further.
+
 Go to `client/` directory and install client side dependencies with:
 
 `npm i`
